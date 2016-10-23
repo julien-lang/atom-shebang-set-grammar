@@ -3,7 +3,11 @@
 	"main": "./lib/main",
 	"version": "0.1.0",
 	"description": "Detect grammar from file's first line when looks like shebang (#! /bin/...)",
-	"keywords": [],
+	"keywords": [
+		"grammar",
+		"shebang",
+		"#!"
+	],
 	"repository": "https://github.com/julien-lang/atom-shebang-set-grammar",
 	"license": "MIT",
 	"engines": {
