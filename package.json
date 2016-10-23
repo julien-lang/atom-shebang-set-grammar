@@ -1,17 +1,17 @@
 {
-	"name": "shebang-set-grammar",
-	"main": "./lib/main",
-	"version": "0.1.0",
-	"description": "Detect grammar from file's first line when looks like shebang (#! /bin/...)",
-	"keywords": [
-		"grammar",
-		"shebang",
-		"#!"
-	],
-	"repository": "https://github.com/julien-lang/atom-shebang-set-grammar",
-	"license": "MIT",
-	"engines": {
-		"atom": ">=1.0.0 <2.0.0"
-	},
-	"dependencies": {}
+  "name": "shebang-set-grammar",
+  "main": "./lib/main",
+  "version": "0.2.0",
+  "description": "Detect grammar from file's first line when looks like shebang (#! /bin/...)",
+  "keywords": [
+    "grammar",
+    "shebang",
+    "#!"
+  ],
+  "repository": "https://github.com/julien-lang/atom-shebang-set-grammar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
 }
