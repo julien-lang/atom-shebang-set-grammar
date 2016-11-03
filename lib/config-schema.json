@@ -1,0 +1,8 @@
+{
+  "changeNonPlainText": {
+    "title": "Change grammar for non \"plain text\" files",
+    "description": "the default behavior is to detect and set the grammar from shebang when the file type is \"plain text\". When activate this option, the grammar may be switched from the shebang even when the file type is not \"plain text\".",
+    "type": "boolean",
+    "default": false
+  }
+}
