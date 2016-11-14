@@ -4,5 +4,11 @@
     "description": "the default behavior is to detect and set the grammar from shebang when the file type is \"plain text\". When activate this option, the grammar may be switched from the shebang even when the file type is not \"plain text\".",
     "type": "boolean",
     "default": false
+  },
+  "aliases": {
+    "title": "Aliases (JSON format)",
+    "description": "define shebang bin => grammar name. Useful when program basename doesn't match Atom grammar name. For instance, sh => shell, bash => shell.",
+    "type": "string",
+    "default": "{\"bash\": \"shell\", \"sh\": \"shell\"}"
   }
 }
