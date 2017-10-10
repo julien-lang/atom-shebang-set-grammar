@@ -37,5 +37,7 @@ describe('Test Shebang', () => {
 	it('wrapper program', () => {
 		expect(MyPackage.read_shebang("#! /usr/bin/env python")).toBe("python")
 		expect(MyPackage.read_shebang("#! /usr/bin/env python -a -b")).toBe("python")
+		expect(MyPackage.read_shebang('#!/usr/bin/wrapper "$ROOT_DIR/bin/ruby"')).toBe("ruby")
+		expect(MyPackage.read_shebang('#!/usr/bin/wrapper "/dir with space/ruby"')).toBe("ruby")
 	})
 })
