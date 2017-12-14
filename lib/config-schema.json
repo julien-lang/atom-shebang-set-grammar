@@ -1,7 +1,7 @@
 {
   "changeNonPlainText": {
-    "title": "Change grammar for non \"plain text\" files",
-    "description": "the default behavior is to detect and set the grammar from shebang when the file type is \"plain text\". When activate this option, the grammar may be switched from the shebang even when the file type is not \"plain text\".",
+    "title": "Override grammar for files identified by extension/filename",
+    "description": "Files such as *Makefile* or *build* will automatically have syntax highlighting applied based on their filename.<br/> Other files with known extensions (.c, .php, .py...) will automatically have syntax highlighting applied based on their extension.<br/> **Enable** this option to override this default syntax highlighting and use the sytanx detected from the shebang.",
     "type": "boolean",
     "default": false
   },
